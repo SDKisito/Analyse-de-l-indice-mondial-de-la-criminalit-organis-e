@@ -5,8 +5,6 @@ import plotly.express as px
 import plotly.graph_objects as go
 import joblib
 import matplotlib.pyplot as plt
-import matplotlib
-matplotlib.use('Agg')
 from sklearn.metrics import confusion_matrix, roc_curve, auc, mean_absolute_error, r2_score
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import ConfusionMatrixDisplay
